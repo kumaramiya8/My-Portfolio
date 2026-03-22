@@ -15,12 +15,12 @@ const Contact = () => {
               </a>
             </p>
             <h4>Education</h4>
-            <p>B.Tech (Civil) - BBAU</p>
+            <p>B.Tech - BBAU, Lucknow | YEAR: 2018</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/kumaramiya8"
+              href="https://github.com/kumaramiya8/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -36,7 +36,7 @@ const Contact = () => {
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href="https://x.com/kumaramiya8"
+              href="https://x.com/kumaramiya8/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -44,7 +44,7 @@ const Contact = () => {
               Twitter <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com/kumar.amiya1"
+              href="https://www.instagram.com/kumar.amiya1/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
