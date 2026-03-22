@@ -20,7 +20,7 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="#"
+              href="https://github.com/kumaramiya8"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
