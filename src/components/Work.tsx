@@ -3,30 +3,32 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
+const base = import.meta.env.BASE_URL;
+
 const projects = [
   {
     title: "Product Support & Incident Command",
     category: "Zenoti",
     tools: "SaaS Platform, Logs & Metrics, DevOps Collaboration",
-    image: "/images/Solidx.png",
+    image: `${base}images/Solidx.png`,
   },
   {
     title: "Enterprise Client Support",
     category: "Morae",
     tools: "ServiceNow, Zendesk, REST APIs, HAR Files",
-    image: "/images/radix.png",
+    image: `${base}images/radix.png`,
   },
   {
     title: "IaaS & Web App Support",
     category: "Dell Technologies",
     tools: "Data Analysis, Performance Metrics, Training",
-    image: "/images/bond.png",
+    image: `${base}images/bond.png`,
   },
   {
     title: "Branch Management & Operations",
     category: "Sigma Slotting Corporation",
     tools: "Team Mentorship, Analytics, Sales Ops",
-    image: "/images/sapphire.png",
+    image: `${base}images/sapphire.png`,
   },
 ];
 
